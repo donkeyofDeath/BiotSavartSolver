@@ -1,3 +1,5 @@
+# Porting this version to Python 3 
+
 # BiotSavartSolver
 A Simple Biot Savart Solver in Python
 
