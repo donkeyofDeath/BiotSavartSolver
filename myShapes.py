@@ -217,4 +217,3 @@ class Wire:
         
         p.show()
         return
-    

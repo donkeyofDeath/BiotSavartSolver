@@ -52,5 +52,5 @@ p.plot(pointsX,BmAnalytical,pointsX,Bm,'x')
 p.show()
 
 RMSE = sqrt(sum((BmAnalytical-Bm)**2.0)/len(Bm))
-print 'RMSE:',RMSE
-print 'Analytical B (mean):',mean(BmAnalytical),'Tesla'
+print('RMSE:',RMSE)
+print('Analytical B (mean):',mean(BmAnalytical),'Tesla')

@@ -54,5 +54,5 @@ BmAnalytical = abs(mu0*myShape.I*N/(2*pi*R1)*ones(len(points[0])))
 #p.show()
 
 RMSE = sqrt(sum((BmAnalytical-Bm)**2.0)/len(Bm))
-print 'RMSE:',RMSE
-print 'Analytical B:',BmAnalytical[0],'Tesla'
+print('RMSE:',RMSE)
+print('Analytical B:',BmAnalytical[0],'Tesla')
